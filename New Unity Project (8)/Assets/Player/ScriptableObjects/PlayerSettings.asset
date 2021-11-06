@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761f6d87dc200004ab4b1eb308bbab41, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  maxMoveSpeed: 6
+  jumpStrength: 6
+  gravStrength: 6
+  groundCheckForgiveness: 0.1
+  speedControl: 0.2
+  inputSensitivity: 0.1
+  cameraSensitivity: 1
+  turnSpeed: 0.08
+  dashDistance: 4
+  dashDuration: 0.1
+  dashCooldown: 1
+  longDashCooldown: 3
+  invertY: 0
+  hungerRegen: 0.1
+  hungerLoss: 0.005
+  momentumMultiplierAddition: 0.1
+  strongAttackMultiplierAddition: 0.4
+  ragdoll: {fileID: 7020892635033643532, guid: c1afe2b7a69c9a342baa6cba5d9478eb, type: 3}

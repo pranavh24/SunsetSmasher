@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e973a6b903f67544faed54573e845b4d, type: 3}
+  m_Name: EnemySettings1
+  m_EditorClassIdentifier: 
+  health: 100
+  sprintSpeed: 4
+  walkSpeed: 2
+  alertRadius: 8
+  attackRadius: 2
+  attackDelay: 3
+  minWalkRadius: 5
+  maxWalkRadius: 10
+  chanceToStand: 0.3
+  minStandTime: 1
+  maxStandTime: 3
+  despawnTime: 0
+  ragdoll: {fileID: 2506644177419406357, guid: 1abf2768705a42f4780df362d6a5d81e, type: 3}

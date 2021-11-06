@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6930339944914832896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6930339944914832898}
+  - component: {fileID: 6930339944914832899}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6930339944914832898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6930339944914832896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6930339944914832899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6930339944914832896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec2761ecae0fda419a59e593083026b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  currentEnemyLevel: 0
+  enemy: {fileID: 91537696499171573, guid: 8526fc62d267e704aabe14dd3ca9d7ed, type: 3}
+  numEnemies: 15
+  weaponLevels:
+  - {fileID: 11400000, guid: fc01001b34d7c7542a48967fd89459ab, type: 2}
+  - {fileID: 11400000, guid: 2979895f493ef324daf1d78fc05d210f, type: 2}
+  - {fileID: 11400000, guid: 60a2bb8b2c1f5b64598065d10f6bbd0b, type: 2}
+  - {fileID: 11400000, guid: 4e963de5e7498bf47b6966d88e9bdfef, type: 2}
+  - {fileID: 11400000, guid: f5e55442eb6970e44ba66050367ea8ea, type: 2}
+  enemyLevels:
+  - {fileID: 11400000, guid: 1db1666a7b633bc419c0f00b0e9d085b, type: 2}
+  - {fileID: 11400000, guid: 56a61dfcfa28e9140a453f3624d690a1, type: 2}
+  - {fileID: 11400000, guid: 81b40417606359f4e846bbf5c534221a, type: 2}
+  - {fileID: 11400000, guid: 56e868f35e690874281bea6c2650fa68, type: 2}
+  - {fileID: 11400000, guid: 7df1a76563adb46429894cdd57d962ab, type: 2}
+  timeThresholds: 960000002c010000c201000058020000ee020000
+  maxSpawnRadius: 25
+  minSpawnRadius: 10
+  respawnTryDelay: 2
+  maxRespawnAttempts: 0
+  pickPositionTries: 3

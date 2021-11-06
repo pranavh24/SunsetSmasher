@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d7ee79b1920e1c841b0c5034ecc09f45
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - terrain: {instanceID: 0}
+  - terrainLayer1: {fileID: 8574412962073106934, guid: 01620c65b9839ed409cde5e2a958b3cd,
+      type: 2}
+  - terrainLayer2: {fileID: 8574412962073106934, guid: 51ba9000cee9c0844b84239685070fde,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ArmsOnly
+  m_Mask: 00000000000000000000000000000000000000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature.001
+    m_Weight: 1
+  - m_Path: Armature.001/Root
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.L/LowLeg.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.L/LowLeg.L/Heel.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.L/LowLeg.L/Heel.L/Foot.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.R/LowLeg.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.R/LowLeg.R/Heel.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/UpLeg.R/LowLeg.R/Heel.R/Foot.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Neck
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Neck/Head
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.L/UpArm.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.L/UpArm.L/LowArm.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.L/UpArm.L/LowArm.L/Palm.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.L/UpArm.L/LowArm.L/Palm.L/Fingers.L
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.R/UpArm.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.R/UpArm.R/LowArm.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.R/UpArm.R/LowArm.R/Palm.R
+    m_Weight: 1
+  - m_Path: Armature.001/Root/Hip/Waist/Chest/Shoulder.R/UpArm.R/LowArm.R/Palm.R/Fingers.R
+    m_Weight: 1
+  - m_Path: Model
+    m_Weight: 1

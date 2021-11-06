@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 68cdb39668243e44c81b8a2c289c9e0b
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 8388711519281352130
+    second: Armature.001|Channel
+  - first:
+      74: 2790580815889210849
+    second: Armature.001|Crouch
+  - first:
+      74: -1224017373997753858
+    second: Armature.001|HammerIdle
+  - first:
+      74: 4699274299699868179
+    second: Armature.001|Idle
+  - first:
+      74: -5376665257271825894
+    second: Armature.001|Jump
+  - first:
+      74: -8168663312898398345
+    second: Armature.001|SwingDownFromLeft
+  - first:
+      74: -2141144441167234133
+    second: Armature.001|SwingDownFromRight
+  - first:
+      74: -7973025950945912389
+    second: Armature.001|SwingLeftFromIdle
+  - first:
+      74: -4822881786502845968
+    second: Armature.001|SwingLeftFromLeft
+  - first:
+      74: 5412511650165807014
+    second: Armature.001|SwingLeftFromRight
+  - first:
+      74: -3488864850597507574
+    second: Armature.001|SwingRightFromIdle
+  - first:
+      74: -1050228352913762236
+    second: Armature.001|SwingRightFromLeft
+  - first:
+      74: -8627750161736737785
+    second: Armature.001|SwingRightFromRight
+  - first:
+      74: -3924416621034953781
+    second: Armature.001|SwingUpFromLeft
+  - first:
+      74: -7538406635305926918
+    second: Armature.001|SwingUpFromRight
+  - first:
+      74: 7168972985768442993
+    second: Armature.001|TPose
+  - first:
+      74: 1090617300004371482
+    second: Armature.001|HammerRun
+  - first:
+      74: -2969036542940970518
+    second: Armature.001|Run
+  - first:
+      74: -5015164054154860167
+    second: Armature.001|HoldHammer
+  - first:
+      74: -3826798686900769421
+    second: Armature.001|Dash (1)
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'Heel.L' : rotation
+      error = 25.063942 deg\n\t'Heel.R' : rotation error = 3.008350 deg\n\t'Palm.L'
+      : rotation error = 90.395447 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature.001|Channel' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Heel.L' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Heel.R' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck'
+      has translation animation that will be discarded.\n\t'Palm.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|Crouch' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|Dash' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|HammerIdle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|Idle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|Jump' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|Run' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|SwingDownFromLeft' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Heel.L' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Heel.R' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Palm.L' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'Armature.001|SwingDownFromRight'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck'
+      has translation animation that will be discarded.\n\t'Palm.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|SwingLeftFromIdle' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Heel.L' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Heel.R' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Shoulder.L' has translation
+      animation that will be discarded.\n\t'Palm.L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Shoulder.R' has translation
+      animation that will be discarded.\n\nClip 'Armature.001|SwingLeftFromLeft'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|SwingLeftFromRight' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Heel.L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Heel.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Neck' has translation
+      animation that will be discarded.\n\t'Palm.L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'Armature.001|SwingRightFromIdle'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Shoulder.L'
+      has translation animation that will be discarded.\n\t'Palm.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Shoulder.R'
+      has translation animation that will be discarded.\n\nClip 'Armature.001|SwingRightFromLeft'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Shoulder.L'
+      has translation animation that will be discarded.\n\t'Palm.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Shoulder.R'
+      has translation animation that will be discarded.\n\nClip 'Armature.001|SwingRightFromRight'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Shoulder.L'
+      has translation animation that will be discarded.\n\t'Palm.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Shoulder.R'
+      has translation animation that will be discarded.\n\nClip 'Armature.001|SwingUpFromLeft'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature.001|SwingUpFromRight' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Heel.L' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Heel.R' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Neck' has translation animation
+      that will be discarded.\n\t'Shoulder.L' has translation animation that will
+      be discarded.\n\t'Shoulder.R' has translation animation that will be discarded.\n\nClip
+      'Armature.001|TPose' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Heel.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Heel.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.001|Channel
+      takeName: Armature.001|Channel
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|Crouch
+      takeName: Armature.001|Crouch
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|HammerIdle
+      takeName: Armature.001|HammerIdle
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|Idle
+      takeName: Armature.001|Idle
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|Jump
+      takeName: Armature.001|Jump
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingDownFromLeft
+      takeName: Armature.001|SwingDownFromLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.67792207
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.83576643
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingDownFromRight
+      takeName: Armature.001|SwingDownFromRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.68371254
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.8480257
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingLeftFromIdle
+      takeName: Armature.001|SwingLeftFromIdle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.323694
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.46350366
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingLeftFromLeft
+      takeName: Armature.001|SwingLeftFromLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.15419902
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.39416057
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingLeftFromRight
+      takeName: Armature.001|SwingLeftFromRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.60528153
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.76812804
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingRightFromIdle
+      takeName: Armature.001|SwingRightFromIdle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.24452554
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.50364965
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingRightFromLeft
+      takeName: Armature.001|SwingRightFromLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.58210516
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.76228553
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingRightFromRight
+      takeName: Armature.001|SwingRightFromRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.17518248
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.45620438
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingUpFromLeft
+      takeName: Armature.001|SwingUpFromLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.270073
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.4890511
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|SwingUpFromRight
+      takeName: Armature.001|SwingUpFromRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.36131385
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.57664233
+        functionName: SetWeaponTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|TPose
+      takeName: Armature.001|TPose
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|Run
+      takeName: Armature.001|Run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|HoldHammer
+      takeName: Armature.001|HoldHammer
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000000000000000000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.001|Dash (1)
+      takeName: Armature.001|Dash
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpLeg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpLeg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Waist
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingers.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Palm.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: cloackedcharacter(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.001
+      parentName: cloackedcharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: 5.302452e-33, z: 5.302451e-33, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: Armature.001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0.00000011520232, z: -0.000000053385076, w: 0.7071068}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Hip
+      parentName: Root
+      position: {x: 1.1274359e-10, y: 0.011274667, z: 0}
+      rotation: {x: 0.09724282, y: 0.000000118654626, z: -0.0000000114867404, w: 0.9952607}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: UpLeg.L
+      parentName: Hip
+      position: {x: -0.00089756615, y: -0.0007600228, z: 0.00014994894}
+      rotation: {x: 0.70068026, y: -0.15107915, z: -0.6907787, w: 0.09511697}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000007}
+    - name: LowLeg.L
+      parentName: UpLeg.L
+      position: {x: -1.9208527e-11, y: 0.004635394, z: 1.5832484e-10}
+      rotation: {x: 0.039653253, y: 0.0065203533, z: 0.16211997, w: -0.9859525}
+      scale: {x: 1, y: 1.0000007, z: 1.0000006}
+    - name: Heel.L
+      parentName: LowLeg.L
+      position: {x: -0, y: 0.0042161644, z: 2.0430889e-10}
+      rotation: {x: 0.00000019744034, y: -0.00000036647535, z: -0.4817742, w: -0.8762953}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+    - name: Foot.L
+      parentName: Heel.L
+      position: {x: 8.659043e-11, y: 0.0008525235, z: -1.0027617e-10}
+      rotation: {x: -0.00000016917153, y: 0.000000073402866, z: 0.33729172, w: 0.9414002}
+      scale: {x: 1, y: 1.0000011, z: 1.0000004}
+    - name: UpLeg.R
+      parentName: Hip
+      position: {x: 0.00089756626, y: -0.0007600234, z: 0.0001499491}
+      rotation: {x: 0.7006803, y: 0.1510791, z: 0.69077855, w: 0.09511702}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000004}
+    - name: LowLeg.R
+      parentName: UpLeg.R
+      position: {x: 1.11758706e-10, y: 0.0046353927, z: 3.5855918e-10}
+      rotation: {x: -0.039653145, y: 0.0065204464, z: 0.16211993, w: 0.98595244}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: Heel.R
+      parentName: LowLeg.R
+      position: {x: -8.381903e-11, y: 0.0042161644, z: -9.778887e-11}
+      rotation: {x: -0.0000002644956, y: -0.00000030454248, z: -0.48177415, w: 0.8762955}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000004}
+    - name: Foot.R
+      parentName: Heel.R
+      position: {x: -1.4246908e-10, y: 0.0008525235, z: -4.7192052e-11}
+      rotation: {x: -0.00000008234702, y: -0.00000013813094, z: -0.3372919, w: 0.9414002}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000002}
+    - name: Waist
+      parentName: Hip
+      position: {x: 3.1015546e-12, y: 0.0015965387, z: 2.6739143e-12}
+      rotation: {x: -0.09724282, y: -0.00000011877047, z: 0.000000011498052, w: 0.9952607}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: Chest
+      parentName: Waist
+      position: {x: 1.5500489e-13, y: 0.0017497622, z: 8.166552e-12}
+      rotation: {x: -0.07626279, y: -0.0000000013930617, z: 0.000000018213292, w: 0.99708784}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: 1.64776e-10, y: 0.0024995129, z: 0.0006836059}
+      rotation: {x: 0.31498572, y: 0.000000010033767, z: -0.00000008728849, w: 0.9490965}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: Head
+      parentName: Neck
+      position: {x: 6.1045565e-12, y: 0.0007963849, z: 6.9931044e-10}
+      rotation: {x: -0.30349773, y: -0.000000002027342, z: 0.00000007190647, w: 0.9528322}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.99999994}
+    - name: Shoulder.L
+      parentName: Chest
+      position: {x: -0.00015471292, y: 0.0022266682, z: 0.00018115278}
+      rotation: {x: 0.053456377, y: -0.0543916, z: 0.71113604, w: 0.698906}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: UpArm.L
+      parentName: Shoulder.L
+      position: {x: 0.0000000020829884, y: 0.0011455985, z: 1.0207941e-11}
+      rotation: {x: -0.040633317, y: 0.0009865196, z: -0.012640696, w: 0.99909365}
+      scale: {x: 1.0000008, y: 0.9999997, z: 0.9999998}
+    - name: LowArm.L
+      parentName: UpArm.L
+      position: {x: -1.0244548e-10, y: 0.0034633768, z: -6.519258e-11}
+      rotation: {x: 0.0885601, y: -0.0032899997, z: -0.005526157, w: 0.99605006}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000004}
+    - name: Palm.L
+      parentName: LowArm.L
+      position: {x: -2.2118911e-10, y: 0.003013499, z: -5.5879353e-11}
+      rotation: {x: -0.09136829, y: 0.013619524, z: 0.12385342, w: 0.9879912}
+      scale: {x: 0.9999998, y: 1.0000012, z: 1.0000004}
+    - name: Fingers.L
+      parentName: Palm.L
+      position: {x: -1.3969838e-11, y: 0.000403623, z: -2.9802322e-10}
+      rotation: {x: -0.039412282, y: 0.001035662, z: 0.1609871, w: 0.98616874}
+      scale: {x: 1.0000006, y: 0.9999999, z: 1.0000005}
+    - name: Shoulder.R
+      parentName: Chest
+      position: {x: 0.00015471302, y: 0.0022266682, z: 0.00018115275}
+      rotation: {x: 0.05345617, y: 0.054391835, z: -0.711136, w: 0.6989061}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: UpArm.R
+      parentName: Shoulder.R
+      position: {x: -0.0000000019457593, y: 0.0011455985, z: -6.2522075e-12}
+      rotation: {x: -0.040632993, y: -0.0009864491, z: 0.012640535, w: 0.9990937}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.0000011}
+    - name: LowArm.R
+      parentName: UpArm.R
+      position: {x: 0.0000000014342367, y: 0.0034633758, z: -4.656613e-10}
+      rotation: {x: 0.0778974, y: 0.0024748235, z: -0.0043578586, w: 0.99694884}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000007}
+    - name: Palm.R
+      parentName: LowArm.R
+      position: {x: -3.1199304e-10, y: 0.0030134984, z: -3.7252902e-11}
+      rotation: {x: -0.090829775, y: -0.017797457, z: -0.07863119, w: 0.9925978}
+      scale: {x: 1.0000014, y: 0.9999995, z: 1.0000005}
+    - name: Fingers.R
+      parentName: Palm.R
+      position: {x: 1.6763806e-10, y: 0.00040362368, z: 2.8172506e-10}
+      rotation: {x: 0.03941231, y: 0.0010357588, z: 0.16098723, w: -0.98616874}
+      scale: {x: 0.99999964, y: 1.0000004, z: 0.9999997}
+    - name: Model
+      parentName: cloackedcharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
